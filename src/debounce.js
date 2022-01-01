@@ -1,7 +1,6 @@
 function debounce(func, ms = 0) {
     let timeoutId;
     return function (...args) {
-        console.log('---clear timeout');
         clearTimeout(timeoutId);
         timeoutId = setTimeout(() => func.apply(this, args), ms);
     };
@@ -17,5 +16,7 @@ const obj = {
     sayHello: debounce(sayHello, 500),
 };
 
-obj.sayHello();
-obj.sayHello();
+setTimeout(() => obj.sayHello(), 0);
+setTimeout(() => obj.sayHello(), 200);
+setTimeout(() => obj.sayHello(), 500);
+setTimeout(() => obj.sayHello(), 1050);
