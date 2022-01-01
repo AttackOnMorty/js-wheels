@@ -5,12 +5,12 @@
  * ❌ Non-enumerable properties
  * ❌ Loop
  */
-function deepClone(obj) {
+function cloneDeep(obj) {
     const result = {};
 
     for (const key in obj) {
         if (typeof obj[key] === 'object' && obj[key] !== null) {
-            result[key] = deepClone(obj[key]);
+            result[key] = cloneDeep(obj[key]);
         } else {
             result[key] = obj[key];
         }
@@ -37,6 +37,6 @@ const obj = {
     error: new Error('error'),
 };
 console.log(obj);
-console.log(deepClone(obj));
+console.log(cloneDeep(obj));
 
 // TODO: Advanced Version
