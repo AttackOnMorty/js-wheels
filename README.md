@@ -17,3 +17,5 @@
 -   [x] [debounce](./src/debounce.js)
 -   [x] [throttle](./src/throttle.js)
 -   [x] [cloneDeep](./src/deepClone.js)
+-   [x] [pipe](./src/pipe.js)
+-   [x] [compose]('./src/compose.js)
