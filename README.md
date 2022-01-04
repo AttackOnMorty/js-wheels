@@ -9,8 +9,9 @@
 -   [x] [apply](./src/apply-and-call.js)
 -   [x] [call](./src/apply-and-call.js)
 -   [x] [bind](./src/bind.js)
--   [x] [class](./src/class.js)
--   [ ] promise
+-   [x] [Class](./src/class.js)
+-   [ ] Promise
+-   [x] [EventEmitter](./src/EventEmitter.js)
 
 ## Algo
 
