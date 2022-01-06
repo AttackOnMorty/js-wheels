@@ -6,8 +6,8 @@
 
 -   [x] [instanceof](./src/instanceof.js)
 -   [x] [new](./src/new.js)
--   [x] [apply](./src/apply-and-call.js)
--   [x] [call](./src/apply-and-call.js)
+-   [x] [apply](./src/apply.js)
+-   [x] [call](./src/call.js)
 -   [x] [bind](./src/bind.js)
 -   [x] [Class](./src/class.js)
 -   [ ] Promise
