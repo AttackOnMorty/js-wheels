@@ -12,6 +12,8 @@
 -   [x] [Class](./src/class.js)
 -   [ ] Promise
 -   [x] [EventEmitter](./src/EventEmitter.js)
+-   [x] [JSON.parse](./src/json-parse.js)
+-   [ ] JSON.stringify
 
 ## Algo
 
