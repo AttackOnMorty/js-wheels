@@ -10,7 +10,7 @@
 -   [x] [call](./src/call.js)
 -   [x] [bind](./src/bind.js)
 -   [x] [Class](./src/class.js)
--   [ ] Promise
+-   [x] [Promise](./src/promise.js)
 -   [x] [EventEmitter](./src/EventEmitter.js)
 -   [x] [JSON.parse](./src/json-parse.js)
 -   [ ] JSON.stringify
