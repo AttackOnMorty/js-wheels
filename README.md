@@ -14,6 +14,7 @@
 -   [x] [EventEmitter](./src/EventEmitter.js)
 -   [x] [JSON.parse](./src/json-parse.js)
 -   [ ] JSON.stringify
+-   [x] [flat]('./src/flat.js)
 
 ## Algo
 
